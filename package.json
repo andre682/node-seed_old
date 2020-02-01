@@ -1,0 +1,32 @@
+{
+  "name": "node-seed",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andre682/node-seed.git"
+  },
+  "author": "André Torbitoni <andre.torbitoni@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre682/node-seed/issues"
+  },
+  "homepage": "https://github.com/andre682/node-seed",
+  "engines": {
+    "node": ">=12.14.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  }
+}
