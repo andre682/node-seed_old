@@ -19,9 +19,7 @@ async function startServer() {
       return
     }
     Logger.info(`
-      ################################################
       🛡️  Server listening on port: ${config.port} 🛡️ 
-      ################################################
     `)
   })
 }

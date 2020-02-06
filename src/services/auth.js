@@ -7,11 +7,11 @@ import { randomBytes } from 'crypto'
 import events from '../subscribers/events'
 
 export default class AuthService {
-  constructor(container, mailer, eventDispatcher) {
+  constructor(container) {
     this.userModel = container.get('userModel')
     this.logger = container.get('logger')
-    this.mailer = mailer
-    this.eventDispatcher = eventDispatcher
+    this.mailer = container.get(MailerService)
+    this.eventDispatcher = container.get(EventDispatcher)
   }
 
   async SignUp(userInputDTO) {

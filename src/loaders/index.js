@@ -18,6 +18,7 @@ export default async ({ expressApp }) => {
    * of writing unit tests, just go and check how beautiful they are!
    */
 
+   // TODO: Create a indexfile into models folder to loop through all files and build the model array
   const userModel = {
     name: 'userModel',
     // Notice the require syntax and the '.default'
