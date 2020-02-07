@@ -18,9 +18,7 @@ async function startServer() {
       process.exit(1)
       return
     }
-    Logger.info(`
-      🛡️  Server listening on port: ${config.port} 🛡️ 
-    `)
+    Logger.info(`Server listening on port: ${config.port}`)
   })
 }
 
