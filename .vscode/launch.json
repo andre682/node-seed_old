@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "0.2.0",
   "configurations": [
     {
       "type": "node",
       "runtimeVersion": "default",
       "request": "launch",
-      "name": "Nodemon",
+      "name": "Debug",
       "restart": true,
       "protocol": "inspector",
       "cwd": "${workspaceFolder}",

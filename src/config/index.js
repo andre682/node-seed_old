@@ -22,6 +22,16 @@ export default {
     prefix: '/api',
   },
   /**
+   * That long string from MongoDB
+   */
+  databaseURL: process.env.MONGODB_URI,
+
+  /**
+   * Your secret sauce
+   */
+  jwtSecret: process.env.JWT_SECRET,
+
+  /**
    * Used by winston logger
    */
   logs: {

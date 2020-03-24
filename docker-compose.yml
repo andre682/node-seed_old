@@ -1,0 +1,16 @@
+version: '3'
+services:
+  backend:
+    container_name: express-app
+    restart: aways
+    build: ./
+    ports:
+      - "8080:3000"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo-database
+    image: mongo
+    ports: 
+      - "27017:27017"
+    
